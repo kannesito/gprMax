@@ -32,7 +32,7 @@ The main script is ``stltovoxel.py`` which should be run at the command line and
 
 * ``stlfilename`` is name of STL file to convert including the path.
 * ``-matindex`` is an integer which represents the index of the material to be used from the materials file which will accompany the generated geometry file (HDF5 format).
-* ``-dxdyz`` is the spatial discretisation of the generated voxelised mesh. It should be given as three floating point numbers.
+* ``-dxdydz`` is the spatial discretisation of the generated voxelised mesh. It should be given as three floating point numbers.
 
 The physical dimensions of the voxelised object will depend on the size of the object in the original STL file and the spatial discretisation chosen.
 
